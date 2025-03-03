@@ -1,4 +1,4 @@
-package paolicchi.tepsit.config;
+package paolicchi.tepsit.helloweb.config;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
