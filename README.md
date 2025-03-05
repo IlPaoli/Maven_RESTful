@@ -6,7 +6,7 @@ Una volta installato Maven (software di build automation e gestione progetto) e'
 ```
 mvn -B archetype:generate \
         -DarchetypeArtifactId=maven-archetype-webapp \
-        -DgroupId=paolicchi.tepsit \
+        -DgroupId=paolicchi.tepsit.helloweb \
         -DartifactId=helloweb
 ```
 - ```archetypeArtifactId=maven-archetype-webapp```  serve a impostare il template da cui creare il progetto, in questo caso e' la base per una web application
