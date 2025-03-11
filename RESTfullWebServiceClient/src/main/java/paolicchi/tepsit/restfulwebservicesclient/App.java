@@ -1,4 +1,4 @@
-package paolicchi.tepsit.restfullwebservicesclient;
+package paolicchi.tepsit.restfulwebservicesclient;
 
 /**
  * Hello world!

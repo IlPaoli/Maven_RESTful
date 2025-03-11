@@ -1,4 +1,4 @@
-package paolicchi.tepsit.restfullwebservices.api;
+package paolicchi.tepsit.restfulwebservices.api;
 
 public class Author {
     private long id;

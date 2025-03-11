@@ -1,4 +1,4 @@
-package paolicchi.tepsit.restfullwebservicesclient;
+package paolicchi.tepsit.restfulwebservicesclient;
 
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;

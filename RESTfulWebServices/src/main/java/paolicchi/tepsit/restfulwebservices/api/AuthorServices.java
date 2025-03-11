@@ -1,4 +1,4 @@
-package paolicchi.tepsit.restfullwebservices.api;
+package paolicchi.tepsit.restfulwebservices.api;
 
 import java.util.ArrayList;
 import java.util.List;

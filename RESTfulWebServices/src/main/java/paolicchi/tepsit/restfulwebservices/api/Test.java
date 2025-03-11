@@ -1,4 +1,4 @@
-package paolicchi.tepsit.restfullwebservices.api;
+package paolicchi.tepsit.restfulwebservices.api;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
