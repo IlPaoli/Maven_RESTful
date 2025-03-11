@@ -1,4 +1,4 @@
-package paolicchi.tepsit.helloweb.api;
+package paolicchi.tepsit.restfullwebservices.api;
 
 import java.net.URI;
 import java.net.URISyntaxException;

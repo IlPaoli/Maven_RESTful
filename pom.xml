@@ -1,13 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>paolicchi.tepsit.helloweb</groupId>
-  <artifactId>helloweb</artifactId>
+  <groupId>paolicchi.tepsit.restfullwebservices</groupId>
+  <artifactId>RESTfullWebService</artifactId>
   <packaging>war</packaging>
   <version>0.1</version>
-  <name>helloweb Maven Webapp</name>
+  <name>RESTfull_WebServices Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>21</java.version>
     <jersey.version>3.1.0</jersey.version>
     <jetty.version>11.0.15</jetty.version>
@@ -69,11 +71,10 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <release>${java.version}</release>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>helloweb</finalName>
+    <finalName>RESTfullWebServices</finalName>
   </build>
 </project>
